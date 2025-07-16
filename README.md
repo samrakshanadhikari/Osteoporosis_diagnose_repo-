@@ -16,14 +16,6 @@ This repository contains code for an image classification model to assist in **o
 
 ---
 
-## 🗂️ Dataset Structure
-
-The dataset directory should have the following folder structure:
-
-
-/content/drive/My Drive/OP_Rolling_Ball_Imgs/
-├── C1/    # 🟢 Radiograph images of healthy patients
-└── C3/    # 🔴 Radiograph images of osteoporosis diagnosed patients
 ## 🚀 Usage
 ### Clone the repository:
 
@@ -32,12 +24,6 @@ git clone https://github.com/samrakshanadhikari/Osteoporosis_diagnose_repo-.git
 cd Osteoporosis_diagnose_repo-
 
 
-## Install required Python packages:
-
-pip install torch torchvision pillow
-
-
-Run the training script or notebook in Google Colab or your local machine.
 
 ## 💡 Code Highlights
 🧹 CleanImageFolder class to handle corrupted images in dataset.
