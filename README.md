@@ -29,24 +29,27 @@ If your dataset location is different, update the `data_dir` variable in the cod
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
-pip install torch torchvision pillow
+
+2. Install the required python packages:
+   
+   pip install torch torchvision pillow
+
+
 Code Highlights
-CleanImageFolder class to handle corrupted images in dataset.
+-CleanImageFolder class to handle corrupted images in dataset.
 
-Data augmentation applied during training including resizing, random crops, flips, rotations, and color jitter.
+-Data augmentation applied during training including resizing, random crops, flips, rotations, and color jitter.
 
-Uses pretrained ResNet-18 model with the final fully connected layer modified for binary classification.
+-Uses pretrained ResNet-18 model with the final fully connected layer modified for binary classification.
 
-Training loop with epoch-wise loss and accuracy reporting.
+-Training loop with epoch-wise loss and accuracy reporting.
 
-Evaluation includes confusion matrix and visualizing misclassified images.
+-Evaluation includes confusion matrix and visualizing misclassified images.
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+-This project is licensed under the MIT License - see the LICENSE file for details.
 
-If you use this work, please acknowledge it properly.
+-If you use this work, please acknowledge it properly.
 
 
----
 
-If you want, I can also help you write the **LICENSE** file content for MIT or generate example code for confusion matrix visualization and misclassified images plotting you mentioned. Just let me know!
