@@ -20,27 +20,24 @@ This repository contains code for an image classification model to assist in **o
 
 The dataset directory should have the following folder structure:
 
-```plaintext
+
 /content/drive/My Drive/OP_Rolling_Ball_Imgs/
 ├── C1/    # 🟢 Radiograph images of healthy patients
 └── C3/    # 🔴 Radiograph images of osteoporosis diagnosed patients
-🚀 Usage
-Clone the repository:
+## 🚀 Usage
+### Clone the repository:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 Install required Python packages:
 
-bash
-Copy
-Edit
-pip install torch torchvision pillow
+
+## pip install torch torchvision pillow
+
 Run the training script or notebook in Google Colab or your local machine.
 
-💡 Code Highlights
+## 💡 Code Highlights
 🧹 CleanImageFolder class to handle corrupted images in dataset.
 
 🎨 Extensive data augmentation: resizing, random crops, flips, rotations, and color jitter.
