@@ -28,9 +28,12 @@ The dataset directory should have the following folder structure:
 ### Clone the repository:
 
 
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-Install required Python packages:
+git clone https://github.com/samrakshanadhikari/Osteoporosis_diagnose_repo-.git
+cd Osteoporosis_diagnose_repo-
+
+
+## Install required Python packages:
+
 pip install torch torchvision pillow
 
 
