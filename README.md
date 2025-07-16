@@ -31,9 +31,8 @@ The dataset directory should have the following folder structure:
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 Install required Python packages:
+pip install torch torchvision pillow
 
-
-## pip install torch torchvision pillow
 
 Run the training script or notebook in Google Colab or your local machine.
 
@@ -48,7 +47,7 @@ Run the training script or notebook in Google Colab or your local machine.
 
 📉 Evaluation includes confusion matrix and visualization of misclassified images.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
 Please acknowledge this work if you use it in your projects.
